@@ -1,0 +1,18 @@
+1.We’ve seen that n = 42 is legal. What about 42 = n?
+
+42 = n SyntaxError: cannot assign to literal
+
+2.How about x = y = 1?
+
+x=y=1  1 will be assinged to x and y so if we do print(x+y) the result will be 2
+
+3.In some languages every statement ends with a semi-colon, ;. What happens if you put a semi-colon at the end of a Python statement?
+
+number = 32;
+print(number); It seems to work with or without the semi-colon
+
+4.In math notation you can multiply x and y like this: xy. What happens if you try that in Python?
+
+x=y=1
+
+print(xy) It throws an NameError: name 'xy' is not defined
